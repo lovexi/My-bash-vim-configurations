@@ -266,3 +266,4 @@ autocmd VimEnter * wincmd p
 ```
 
 - Use `:qa` and `:qa!` instead of `:q` and `:q!`, since you have two windows now when you start another window to show filesystem. Otherwise, we have to manually close all windows twice.
+- double `:w` can switch between different windows.
