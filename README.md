@@ -3,7 +3,8 @@
 The follwing plugins and configurations are my personal preference.
 
 1. zsh and oh-my-zsh (bash counterpart, more plugins and friendly to programmers)
-  - [Official Link]()
+  - [zsh Official Link](http://zsh.sourceforge.net/)
+  - [oh-my-zsh github repo](https://github.com/robbyrussell/oh-my-zsh)
   - [Personal configuration](https://github.com/lovexi/My-bash-vim-configurations#zsh-and-oh-my-zsh)
 2. solarized (color theme)
   - [Official Link](http://ethanschoonover.com/solarized)
@@ -16,6 +17,54 @@ The follwing plugins and configurations are my personal preference.
 
 
 ## Zsh and Oh-My-Zsh
+
+### Zsh
+
+Zsh is a shell designed for interactive use, although it is also a powerful scripting language. Zsh can be a good counterpart with bash.
+
+For most of linux distributions, zsh is already installed in system with bash. `echo $SHELL` can echo your current shell on screen. Default shell for Terminal.app in mac or iTerm is bash.
+
+```bash
+$ echo $SHELL
+/bin/zsh
+```
+
+Or you can install zsh on mac like:
+
+```bash
+$ brew install zsh
+```
+
+replace shell bash with zsh by modifying `/etc/shells` file. Add `/usr/local/bin/zsh`. Then run command `chsh -s /usr/local/bin/zsh` to change login shell.
+
+> `chsh` changes a user's login shell. Usage: chsh [-s login_shell] [user]
+
+### Oh-My-Zsh
+
+Zsh is a community-driven open-source framework for managing zsh configurations.
+
+#### Installation
+
+Two ways to install oh-my-zsh:
+
+**via curl**
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+**via wget**
+```bash
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+```
+
+#### Configuration
+
+Most frequently used plugins already exists in ~/.oh-my-zsh/plugins. In order to initialize the plugins you want, you are required to add those plugins in zsh configuration file `~/.zshrc`:
+
+For instance:
+```bash
+plugins=(git autojump osx)
+```
 
 ## Solarized
 
