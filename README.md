@@ -267,3 +267,10 @@ autocmd VimEnter * wincmd p
 
 - Use `:qa` and `:qa!` instead of `:q` and `:q!`, since you have two windows now when you start another window to show filesystem. Otherwise, we have to manually close all windows twice.
 - double `:w` can switch between different windows.
+
+#### vim-scala
+
+Provides syntax highlights for scala language.
+
+1. Adding `Plugin 'derekwyatt/vim-scala'` in `~/.vimrc` conf file
+2. Switch into vim, call vim cmd `:PluginInstall` to install plugins
