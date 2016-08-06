@@ -1,6 +1,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/Yangyang/.oh-my-zsh
-export PATH=$PATH:~/Downloads/Study/bin
+export SCRIPT_PATH=~/Downloads/Study/scripts
+export PATH=$PATH:$SCRIPT_PATH
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -53,7 +54,7 @@ export LANG=en_US.UTF-8
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=( git autojump osx colored-man-pages command-not-found )
+plugins=( git autojump osx colored-man-pages command-not-found web-search )
 
 # User configuration
 
@@ -92,4 +93,3 @@ export CLICOLOR=1
 . /Library/Python/2.7/site-packages/powerline/bindings/zsh/powerline.zsh
 
 alias python=python3
-alias zshplugin='python3 zsh-plugins.py'
