@@ -93,4 +93,5 @@ export CLICOLOR=1
 . /Library/Python/2.7/site-packages/powerline/bindings/zsh/powerline.zsh
 
 alias python=python3
+# My customized command with my scripts
 alias zshplugin='python add-zsh-plugins.py'
