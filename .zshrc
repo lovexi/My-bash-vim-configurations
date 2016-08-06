@@ -1,6 +1,5 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/Yangyang/.oh-my-zsh
-# export path include my own script
 export PATH=$PATH:~/Downloads/Study/bin
 
 # Set name of the theme to load.
@@ -93,5 +92,4 @@ export CLICOLOR=1
 . /Library/Python/2.7/site-packages/powerline/bindings/zsh/powerline.zsh
 
 alias python=python3
-# My customized command with my scripts
-alias zshplugin='python add-zsh-plugins.py'
+alias zshplugin='python3 zsh-plugins.py'
