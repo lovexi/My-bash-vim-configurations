@@ -2,7 +2,7 @@
 
 > *All following plugins and configurations are built in iTerm2 on Mac. For windows configurations, it may vary in some steps. More precise detailed information is provided in each official user guide*
 
-The follwing plugins and configurations are my personal preference. I welcome all feedbacks about my configurations and all experience shares from your daily programming-life. My [vim configuration](https://github.com/lovexi/My-bash-vim-configurations/blob/master/.vimrc) and [zsh configuration](https://github.com/lovexi/My-bash-vim-configurations/blob/master/.zshrc) can be found in this repo.
+The follwing plugins and configurations are my personal preference. I welcome all feedbacks about my configurations and all experience shares from your daily programming-life. My [vim configuration](https://github.com/lovexi/My-bash-vim-configurations/blob/master/.vimrc) and [zsh configuration](https://github.com/lovexi/My-bash-vim-configurations/blob/master/.zshrc) can be found in this repo. **Don't blindly copy&paste**. Those configurations include my own [scripts](https://github.com/lovexi/scripts) as customised linux command.
 
 1. zsh and oh-my-zsh (bash counterpart, more plugins and friendly to programmers)
   - [zsh Official Link](http://zsh.sourceforge.net/)
