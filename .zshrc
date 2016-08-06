@@ -90,3 +90,5 @@ source $ZSH/oh-my-zsh.sh
 export CLICOLOR=1
 
 . /Library/Python/2.7/site-packages/powerline/bindings/zsh/powerline.zsh
+
+alias python=python3
